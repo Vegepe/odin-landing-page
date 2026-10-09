@@ -10,6 +10,7 @@
 body {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 section, .footer {
@@ -41,5 +42,57 @@ section, .footer {
 
 .nav-link {
     color: white;
+    font-weight: 0;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+    gap: 8px;
+    padding: 96px 64px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-heading {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    align-self: flex-start;
+    background-color: #3882F6;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    color: #F9FAF8;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+.hero-img {
+    max-width: 600px;
+    border-radius: 32px;
+    display: block;
+    box-shadow: 8px 8px #3882F6;
+    transition: transform 0.1s ease-in-out;
+}
+
+.hero-img:hover, .hero-button:hover {
+    transform: scale(1.1);
+}
