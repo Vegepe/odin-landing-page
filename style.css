@@ -93,6 +93,46 @@ section, .footer {
     transition: transform 0.1s ease-in-out;
 }
 
-.hero-img:hover, .hero-button:hover {
+.hero-img:hover, .hero-button:hover, .info-image:hover {
     transform: scale(1.1);
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 10px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.info-image {
+    width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    background-color: #3882F6;
+    transition: transform 0.1s ease-in-out;
+    user-drag: none;
+	-webkit-user-drag: none;
+	-moz-user-select: none;
 }
