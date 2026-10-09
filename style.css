@@ -97,7 +97,7 @@ section, .footer {
     transition: transform 0.1s ease-in-out;
 }
 
-.hero-img:hover, .hero-button:hover, .info-image:hover, .cta-button:hover {
+.hero-img:hover, .info-image:hover{
     transform: scale(1.1);
 }
 
@@ -193,3 +193,10 @@ section, .footer {
     transition: transform 0.1s ease-in-out;
 }
 
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
